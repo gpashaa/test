@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100%;
+    background: #000 url("image/bg.jpg") no-repeat center center;
+    font-size: 10px;
+    color: #fff;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+.content {
+    margin: 0 auto;
+    width: 750px;
+    padding-top: 120px;
+    padding-bottom: 75px;
+    position: relative;
+}
+
+.copy {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.logo-box {
+    width: 320px;
+    text-align: center;
+    position: relative;
+}
+
+.logo-text {
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+.img-tree {
+    position: absolute;
+    right: 0;
+    top: -33px;
+}
+
+.contacts {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.top-box {
+    font-size: 0;
+}
+
+
+.left-box,
+.right-box {
+    width: 50%;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 16px;
+}
+
+.right-box {
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.grid {
+    margin-top: 20px;
+    margin-left: -5px;
+    margin-right: -5px;
+    font-size: 0;
+}
+
+.col {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 5px;
+    margin-bottom: 40px;
+    width: 33.33%;
+    font-size: 16px;
+    text-align: center;
+}
+
+.country {
+    color: #fff;
+    text-decoration: none;
+}
+
+.country img {
+    display: inline-block;
+    max-width: 100%;
+    border: 2px solid #9b9b9b;
+}
+
+
+
+
+.main-content {
+    font-size: 16px;
+}
+.main-content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.nav {
+    float: left;
+    width: 200px;
+    background: #eee;
+    color: #333;
+}
+
+
+
+.main {
+    margin-left: 250px;
+}
+
+.info {
+    margin-top: 10px;
+}
